@@ -1,4 +1,4 @@
-package org.cg.frientmanagement.dao;
+package org.cg.friendmanagement.dao;
 
 import java.util.List;
 import java.util.Set;

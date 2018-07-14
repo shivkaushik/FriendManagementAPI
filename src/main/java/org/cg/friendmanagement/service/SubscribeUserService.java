@@ -1,4 +1,4 @@
-package org.cg.frientmanagement.service;
+package org.cg.friendmanagement.service;
 
 import java.util.Map;
 

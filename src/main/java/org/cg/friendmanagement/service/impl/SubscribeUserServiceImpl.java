@@ -1,12 +1,12 @@
-package org.cg.frientmanagement.service.impl;
+package org.cg.friendmanagement.service.impl;
 
 import java.util.HashMap;
 import java.util.Map;
 
+import org.cg.friendmanagement.dao.UserFriendDAO;
 import org.cg.friendmanagement.entity.User;
 import org.cg.friendmanagement.request.SubscribeUserRequestEntity;
-import org.cg.frientmanagement.dao.UserFriendDAO;
-import org.cg.frientmanagement.service.SubscribeUserService;
+import org.cg.friendmanagement.service.SubscribeUserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

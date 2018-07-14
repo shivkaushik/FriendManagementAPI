@@ -1,4 +1,4 @@
-package org.cg.frientmanagement.controller;
+package org.cg.friendmanagement.controller;
 
 import java.util.Map;
 
@@ -6,9 +6,9 @@ import org.cg.friendmanagement.request.BlockUserRequestEntity;
 import org.cg.friendmanagement.request.SubscribeUserRequestEntity;
 import org.cg.friendmanagement.request.UserFriendsListRequestEntity;
 import org.cg.friendmanagement.request.UserFriendsRequestEntity;
-import org.cg.frientmanagement.service.BlockUserService;
-import org.cg.frientmanagement.service.SubscribeUserService;
-import org.cg.frientmanagement.service.UserFriendsService;
+import org.cg.friendmanagement.service.BlockUserService;
+import org.cg.friendmanagement.service.SubscribeUserService;
+import org.cg.friendmanagement.service.UserFriendsService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.RequestBody;

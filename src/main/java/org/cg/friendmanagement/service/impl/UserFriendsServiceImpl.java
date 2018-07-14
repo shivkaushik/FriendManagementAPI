@@ -1,4 +1,4 @@
-package org.cg.frientmanagement.service.impl;
+package org.cg.friendmanagement.service.impl;
 
 import java.util.HashMap;
 import java.util.List;
@@ -6,11 +6,11 @@ import java.util.Map;
 import java.util.Set;
 import java.util.stream.Collectors;
 
+import org.cg.friendmanagement.dao.UserFriendDAO;
 import org.cg.friendmanagement.entity.User;
 import org.cg.friendmanagement.request.UserFriendsListRequestEntity;
 import org.cg.friendmanagement.request.UserFriendsRequestEntity;
-import org.cg.frientmanagement.dao.UserFriendDAO;
-import org.cg.frientmanagement.service.UserFriendsService;
+import org.cg.friendmanagement.service.UserFriendsService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
